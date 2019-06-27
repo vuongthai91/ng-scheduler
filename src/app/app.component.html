@@ -1,0 +1,15 @@
+
+<p>
+  Start editing to see some magic happen :)
+</p>
+
+<div>
+  <ng-time-scheduler [groups]="groups" 
+  [items]="items" 
+  [defaultTimeStart]="defaultTimeStart" 
+  [defaultTimeEnd]="defaultTimeEnd"
+  [visibleTimeStart]="visibleTimeStart"
+  [visibleTimeEnd]="visibleTimeEnd"
+  (click)="logEvent('on click', $event)" >
+  </ng-time-scheduler>
+</div>
